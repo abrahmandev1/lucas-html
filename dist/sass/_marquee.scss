@@ -1,0 +1,23 @@
+/* start marquee section */
+.marquee_section {
+  
+    .marquee {
+      margin: 0 auto;
+      padding: 50px 0;
+      border-left: none;
+      border-right: none;
+      overflow: hidden;
+  
+      .marquee__single__wrapper {
+        li {
+          float: left;
+        }
+      }
+  
+      .marquee__single {
+        padding: 0 50px;
+      }
+    }
+  }
+  /* end marquee section */
+  

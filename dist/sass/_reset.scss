@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
+
+:root {
+    --primary-t-color: #030712;
+    --primary-t-color-2: #B6BCC6;
+    --secondary-t-color: #f9f9f9;
+    --secondary-t-color-2: #a6abb4;
+    --secondary-bg-color: #111013;
+    --secondary-p-color: #909DAC;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: $secondarytextcolor;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: "Urbanist", sans-serif;
+    overflow-x: hidden;
+    background: #F9F4F0;
+}
+body.odd {
+    background-color: $secondary-bg-color;
+    color: $secondary-p-color;
+}
+
+img {
+	max-width: 100%;
+}
+ul {
+	margin:0;
+	padding:0;
+}
+li {
+	list-style:none;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	color: var(--secondary-bg-color);
+	font-family: "Urbanist", sans-serif;
+	line-height: normal;
+}
+p {
+	margin:0;
+	padding:0;
+    color: $secondary-p-color;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Urbanist", sans-serif;
+    line-height: 28px;
+}
+a {
+	text-decoration: none;
+}
+
+// magic cursor 
+  
+.cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999;
+
+    .cursor-inner,
+    .cursor-outer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        pointer-events: none;
+    }
+
+    .cursor-inner {
+        width: 8px;
+        height: 8px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .cursor-outer {
+        width: 40px;
+        height: 40px;
+        border: 1px solid rgba(0, 0, 0, 0.6);
+        transition: all 0.15s ease;
+    }
+}
+  
+  
+
+
+/* start section title */
+.section_title {
+    margin-bottom: 50px;
+
+    h2 {
+        font-size: 56px;
+        font-weight: 700;
+    }
+
+    span {
+        color: #686665;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 20px;
+        display: block;
+        background: #fff;
+        display: inline-block;
+        padding: 6px 20px;
+        border-radius: 20px;
+    }
+}
+/* end section title */

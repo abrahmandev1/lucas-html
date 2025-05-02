@@ -1,0 +1,124 @@
+
+// Responsive styles for the website
+// This file contains media queries for different screen sizes
+// and applies specific styles to elements based on the screen size.
+@include respond-to(xl) {
+	.popular-tools-list li {
+		margin-bottom: 15px;
+	}
+	.keyword-list li {
+		margin-bottom: 10px;
+	}
+
+
+
+}
+
+
+
+@include respond-to(lg) {
+	.hero_right_image_area.text-end {
+		margin-top: 50px;
+		text-align: start !important;
+	}
+
+	.badge_image {
+		display: none !important;
+	}
+	
+	.section_title h2 {
+		font-size: 45px !important;
+	}
+
+	.skill_section_title {
+		width: 100% !important;
+	}
+	.services-image {
+		margin-bottom: 30px !important;
+	}
+	.services_accordion_title {
+		width: 100% !important;
+	}
+	.skill-card {
+		margin-bottom: 30px !important;
+	}
+
+	#testimonial_slider {
+		margin-bottom: 50px !important;
+	}
+
+	#testimonial_slider .owl-nav {
+		position: inherit !important;
+		top: 0 !important;
+		margin-top: 20px !important;
+	}
+
+	.contact_left_section h2 {
+		font-size: 45px !important;
+	}
+
+	.contact_socials_area .contact_socials_icon a {
+		padding: 8px 12px !important;
+	}
+	.contact_left_section p {
+		font-size: 22px !important;
+	}
+
+	.banner_title h2 {
+		font-size: 70px !important;
+	}
+}
+  
+
+
+@include respond-to(md){
+	.projects_header {
+		display: block !important;
+		margin-bottom: 50px !important;
+	}
+
+	.services_accordion_title {
+		width: 100% !important;
+	}
+
+	.contact_left_section {
+		margin-bottom: 50px !important;
+	}
+
+	.footer_left_content p {
+		margin-bottom: 30px;
+	}
+
+	.footer_right_icon {
+		text-align: start !important;
+	}
+
+	.footer_right_icon li {
+		padding: 0 !important;
+		padding-right: 16px !important;
+	}
+
+}
+
+
+
+@include respond-to(sm){
+	.navbar .navbar-nav .nav-link {
+        margin-left: 0 !important;
+    }
+	.banner_title h2 {
+		font-size: 55px !important;
+	}
+	.section_title h2 {
+		font-size: 34px !important;
+	}
+	.footer_left_content p {
+		text-align: center;
+	}
+	#footer .header_icons {
+		justify-content: center !important;
+	}
+
+}
+
+

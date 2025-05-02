@@ -1,0 +1,111 @@
+.contact_left_section {
+    text-align: left;
+
+    p {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 50px;
+    }
+
+    .ct_title{
+        margin-bottom: 20px;
+    }
+
+}
+
+.contact_socials_area {
+    h4 {
+        color: var(--primary-t-color);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+    
+    .contact_socials_icon {
+        display: flex;
+        gap: 15px;
+        width: 100%;
+
+        a {
+            padding: 10px 20px;
+            border-radius: 32px;
+            border: 1px solid rgba(0, 0, 0, 0.50);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: rgba(0, 0, 0, 0.50);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+    }
+
+}
+
+
+
+// right content
+
+.contact_form_area {
+	background: #fff;
+	border-radius: 24px;
+	border: 1px solid rgba(51, 51, 51, 0.1);
+	padding: 30px;
+}
+
+.contact_form_area input,
+.contact_form_area textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.10);
+    background: transparent;
+    margin-bottom: 20px;
+    padding: 16px 10px;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact_form_area textarea {
+    resize: none;
+}
+
+.contact_form_area input:focus,
+.contact_form_area textarea:focus {
+    outline: none;
+    border-bottom: 1px solid #333;
+    color: #000;
+}
+
+.phone_email {
+    display: flex;
+    gap: 20px;
+}
+
+.phone_email input {
+    flex: 1;
+}
+
+.submit-btn {
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background-color: #1f1f1f;
+}
